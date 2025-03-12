@@ -36,7 +36,7 @@ export const hero = {
       </>
     ),
   },
-  headLine: 'Welcome to Mayuvel Industry',
+  headLine: 'Welcome To Mayuvel Industry',
   captionLine:
     'Discover Mayuvel Industry – Your source for high-quality camphor, wax candles, and divine products that enhance your spiritual practices and bring tranquility to your life. Experience serenity with products crafted with care and dedication, perfect for both traditional and modern rituals.',
   primaryBtn: { children: 'Explore Blocks', href: SECTION_PATH },
