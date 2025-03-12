@@ -1,4 +1,3 @@
-// @mui
 import CardMedia from '@mui/material/CardMedia';
 import Chip from '@mui/material/Chip';
 import Typography from '@mui/material/Typography';
@@ -9,15 +8,21 @@ export const hero = {
     label: (
       <>
         <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-          One Kit, Endless
+          Divine Harmony, Endless Blessings
         </Typography>
         <Chip
           label={
             <Typography variant="caption" sx={{ color: 'primary.main' }}>
-              Possibilities
+              One Blessing, Endless Peace
             </Typography>
           }
-          sx={{ height: 24, bgcolor: 'primary.lighter', mr: -1, ml: 0.75, '& .MuiChip-label': { px: 1.25 } }}
+          sx={{
+            height: 24,
+            bgcolor: 'primary.lighter',
+            mr: -1,
+            ml: 0.75,
+            '& .MuiChip-label': { px: 1.25 },
+          }}
           icon={
             <CardMedia
               component="img"
@@ -29,10 +34,11 @@ export const hero = {
           }
         />
       </>
-    )
+    ),
   },
-  headLine: 'Multipurpose UI Kit and Dashboard Template',
-  captionLine: 'Design marketing pages and powerful admin dashboards with ease using our UI Kit, built following Material 3 guidelines.',
+  headLine: 'Welcome to Mayuvel Industry',
+  captionLine:
+    'Discover Mayuvel Industry – Your source for high-quality camphor, wax candles, and divine products that enhance your spiritual practices and bring tranquility to your life. Experience serenity with products crafted with care and dedication, perfect for both traditional and modern rituals.',
   primaryBtn: { children: 'Explore Blocks', href: SECTION_PATH },
   videoSrc: 'https://d2elhhoq00m1pj.cloudfront.net/saasable-intro.mp4',
   videoThumbnail: '/assets/videos/thumbnails/intro-thumbnail.png',
@@ -43,6 +49,6 @@ export const hero = {
     { image: '/assets/images/shared/typescript.svg', title: 'TypeScript' },
     { image: '/assets/images/shared/javascript.svg', title: 'JavaScript' },
     { image: '/assets/images/shared/m3.svg', title: 'Material 3' },
-    { image: '/assets/images/shared/figma.svg', title: 'Figma' }
-  ]
+    { image: '/assets/images/shared/figma.svg', title: 'Figma' },
+  ],
 };
