@@ -1,14 +1,14 @@
 {
-  "brandName": "SaasAble",
-  "title": "React Multipurpose UI Kit and Dashboard Template",
+  "brandName": "Mayuravel Brand",
+  "title": "Welcome To Mayuvel Industry",
   "company": {
     "name": "Phoenixcoded",
-    "url": "https://phoenixcoded.net",
+    "url": "https://mayuravel.in",
     "socialLink": {
       "linkedin": "https://in.linkedin.com/company/phoenixcoded",
       "instagram": "#",
-      "facebook": "https://www.facebook.com/Phoenixcoded/",
-      "youtube": "https://www.youtube.com/@Phoenixcoded",
+      "facebook": "https://www.facebook.com/mayuravel/",
+      "youtube": "https://www.youtube.com/mayuravel",
       "github": "https://github.com/phoenixcoded",
       "dribble": "https://dribbble.com/Phoenixcoded",
       "discord": "https://discord.com/invite/AfJqqYeG",
@@ -16,9 +16,9 @@
     }
   },
   "logo": {
-    "main": "",
-    "logoIcon": "",
-    "logoFab": "",
-    "logoWatermark": ""
+    "main": "/logos/logo.png",  
+    "logoIcon": "/logos/logoicon.png",  
+    "logoFab": "/logos/logo.png",  
+    "logoWatermark": "/logos/logo.png"  
   }
 }

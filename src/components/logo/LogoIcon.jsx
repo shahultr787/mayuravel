@@ -18,7 +18,7 @@ export default function LogoIcon() {
     <Box
       className="icon-logo"
       sx={{
-        width: { xs: 19.5, sm: 22, md: 24 },
+        width: { xs: 40, sm: 50, md: 60 },
         height: 1,
         position: 'relative',
         cursor: 'pointer',
