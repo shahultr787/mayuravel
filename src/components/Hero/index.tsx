@@ -5,31 +5,33 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="relative z-10 overflow-hidden bg-white pb-16 pt-[100px] dark:bg-gray-dark md:pb-[120px] md:pt-[120px] xl:pb-[160px] xl:pt-[150px] 2xl:pb-[200px] 2xl:pt-[180px]"
       >
-        <div className="container">
+        <div className="container px-4 sm:px-6">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 {/* Typing Animation for Heading */}
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight typing-animation">
+                <h1 className="mb-4 text-2xl font-bold leading-tight text-black dark:text-white sm:text-3xl sm:leading-tight md:mb-5 md:text-4xl md:leading-tight lg:text-5xl lg:leading-tight typing-animation">
                   Welcome To Mayuvel Industry
                 </h1>
+                
                 {/* Animated Paragraph */}
-                <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl animate-fade-in-up delay-200">
-                  Discover Mayuvel Industry – Your source for high-quality camphor, wax candles, and divine products that enhance your spiritual practices and bring tranquility to your life. Experience serenity with products crafted with care and dedication, perfect for both traditional and modern rituals.
+                <p className="mb-8 text-sm !leading-relaxed text-body-color dark:text-body-color-dark sm:mb-10 sm:text-base md:mb-12 md:text-lg lg:text-xl animate-fade-in-up delay-200">
+                  Discover Mayuvel Industry – Your source for high-quality camphor, wax candles, and divine products that enhance your spiritual practices and bring tranquility to your life.
                 </p>
-                {/* Animated Buttons */}
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                
+                {/* Animated Buttons - Stacked on mobile, inline on larger screens */}
+                <div className="flex flex-col items-center justify-center space-y-3 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="/products"
-                    className="rounded-md bg-primary px-8 py-3 text-base font-semibold text-white shadow-lg shadow-primary/50 transition-all duration-300 hover:bg-primary/90 hover:shadow-xl hover:shadow-primary/60 animate-fade-in-up delay-400"
+                    className="inline-block rounded-md bg-primary px-6 py-2 text-sm font-semibold text-white shadow-lg shadow-primary/50 transition-all duration-300 hover:bg-primary/90 hover:shadow-xl hover:shadow-primary/60 sm:px-8 sm:py-3 sm:text-base animate-fade-in-up delay-400"
                   >
                     Explore Products
                   </Link>
                   <Link
                     href="/contact"
-                    className="rounded-md bg-transparent px-8 py-3 text-base font-semibold text-primary shadow-lg shadow-primary/20 transition-all duration-300 hover:bg-primary/10 hover:shadow-xl hover:shadow-primary/30 animate-fade-in-up delay-600"
+                    className="inline-block rounded-md bg-transparent px-6 py-2 text-sm font-semibold text-primary shadow-lg shadow-primary/20 transition-all duration-300 hover:bg-primary/10 hover:shadow-xl hover:shadow-primary/30 sm:px-8 sm:py-3 sm:text-base animate-fade-in-up delay-600"
                   >
                     Contact Us
                   </Link>
@@ -38,14 +40,16 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        {/* Background SVG Elements */}
-        <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
+        
+        {/* Background SVG Elements - Reduced opacity on mobile */}
+        <div className="absolute right-0 top-0 z-[-1] opacity-20 lg:opacity-100">
           <svg
             width="450"
             height="556"
             viewBox="0 0 450 556"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            className="h-auto w-[280px] sm:w-[350px] md:w-[450px]"
           >
             {/* SVG Circles and Gradients */}
             <circle cx="277" cy="63" r="225" fill="url(#paint0_linear_25:217)" />
@@ -174,13 +178,14 @@ const Hero = () => {
             </defs>
           </svg>
         </div>
-        <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
+        <div className="absolute bottom-0 left-0 z-[-1] opacity-20 lg:opacity-100">
           <svg
             width="364"
             height="201"
             viewBox="0 0 364 201"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            className="h-auto w-[200px] sm:w-[300px] md:w-[364px]"
           >
             <path
               d="M5.88928 72.3303C33.6599 66.4798 101.397 64.9086 150.178 105.427C211.155 156.076 229.59 162.093 264.333 166.607C299.076 171.12 337.718 183.657 362.889 212.24"
